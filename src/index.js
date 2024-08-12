@@ -1,17 +1,21 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from 'react'; // React 라이브러리 불러오기
+import ReactDOM from 'react-dom'; // ReactDOM 라이브러리 불러오기
+import './index.css'; // 전역 css 파일 불러오기
+import App from './App'; // App 컴포넌트 불러오기
+import reportWebVitals from './reportWebVitals'; // 성능 측정을 위한 함수 불러오기
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+//import Library from './08.06/Library'; // Library 컴포넌트 불러오기
+//import Clock from './08.12/clock'; // Clock 컴포넌트 불러오기
+import CommentList from './08.12/CommentList';
+
+ReactDOM.render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+    <CommentList />
+  </React.StrictMode>,
+  document.getElementById('root') // 렌더링할 HTML 요소의 id
+  );
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+reportWebVitals(); // 성능 측정 함수 호출
