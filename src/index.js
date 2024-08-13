@@ -6,11 +6,12 @@ import reportWebVitals from './reportWebVitals'; // 성능 측정을 위한 함�
 
 //import Library from './08.06/Library'; // Library 컴포넌트 불러오기
 //import Clock from './08.12/clock'; // Clock 컴포넌트 불러오기
-import CommentList from './08.12/CommentList';
+//import CommentList from './08.12/CommentList'; // CommentList 컴포넌트 불러오기
+import NotificationList from './08.13/NotificationList';
 
 ReactDOM.render(
   <React.StrictMode>
-    <CommentList />
+    <NotificationList />
   </React.StrictMode>,
   document.getElementById('root') // 렌더링할 HTML 요소의 id
   );
