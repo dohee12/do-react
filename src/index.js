@@ -11,11 +11,14 @@ import reportWebVitals from './reportWebVitals'; // 성능 측정을 위한 함�
 //import ConfirmButton from './08.14/ConfirmButton'; // ConfirmButton 컴포넌트 불러오기
 //import LandingPage from './08.14/LandingPage'; // LandingPage 컴포넌트 불러오기
 //import AttendanceBook from './08.14/AttendanceBook'; // AttendanceBook 컴포넌트 불러오기
-import SignUp from './08.14/SignUp';
+//import SignUp from './08.14/SignUp';
+//import Calculator from './08.17/Calculator';
+//import ProfileCard from './08.17/ProfileCard';
+import DarkOrLight from './08.17/DarkOrLight';
 
 ReactDOM.render(
   <React.StrictMode>
-    <SignUp />
+    <DarkOrLight />
   </React.StrictMode>,
   document.getElementById('root') // 렌더링할 HTML 요소의 id
   );
