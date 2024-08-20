@@ -14,11 +14,13 @@ import reportWebVitals from './reportWebVitals'; // 성능 측정을 위한 함�
 //import SignUp from './08.14/SignUp';
 //import Calculator from './08.17/Calculator';
 //import ProfileCard from './08.17/ProfileCard';
-import DarkOrLight from './08.17/DarkOrLight';
+//import DarkOrLight from './08.17/DarkOrLight';
+//import MainPage from './08.20/MainPage';
+import Blocks from './08.20/Blocks';
 
 ReactDOM.render(
   <React.StrictMode>
-    <DarkOrLight />
+    <Blocks />
   </React.StrictMode>,
   document.getElementById('root') // 렌더링할 HTML 요소의 id
   );
