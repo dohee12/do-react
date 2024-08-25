@@ -55,4 +55,4 @@ function Blocks(props) {
     );
 }
 
-export default Blocks;
+export default Blocks ;

@@ -3,7 +3,7 @@ import Comment from "./Comment";
 
 const comments = [
     {
-        name: "이연재",
+        name: "탕후루",
         comment:"안녕하세요 도희입니다.",
     },
     {
@@ -11,7 +11,7 @@ const comments = [
         comment:"리액트 재미있어요",
     },
     {
-        name: "채연주",
+        name: "마라탕",
         comment:"저도 리액트 배워보고 싶어요",
     },
 ]
