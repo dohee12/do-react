@@ -17,10 +17,11 @@ import CommentList from './08.12/CommentList'; // CommentList 컴포넌트 불�
 //import DarkOrLight from './08.17/DarkOrLight';
 //import MainPage from './08.20/MainPage';
 //import Blocks from './08.20/Blocks';
+import Accommodate from './08.13/Accommodate';
 
 ReactDOM.render(
   <React.StrictMode>
-    <CommentList />
+    <Accommodate />
   </React.StrictMode>,
   document.getElementById('root') // 렌더링할 HTML 요소의 id
   );
